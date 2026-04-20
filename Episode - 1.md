@@ -19,6 +19,23 @@
     echo 'Installing: NASM, QEMU'
     sudo pacman -S nasm qemu-full
     ```
+  - **Debian**
+  - **Manjaro**
+  - **EndeavourOS**
+  - **Garuda Linux**
+  - **ArcoLinux**
+  - **CachyOS**
+  - **Artix Linux**
+  - ```bash
+    echo 'Installing: NASM, QEMU'
+    sudo pacman -S nasm qemu-full
+    ```
+- **Windows**
+- - Download **NASM** from nasm.us
+  
+- - Download **QEMU** from qemu.org
+
+- - Add both to PATH (or just use WSL)
 
 # Comming to Episode - 2!
 - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%202.md
