@@ -52,9 +52,13 @@
     - **Raspberry Pi OS**
       ```bash
       echo 'Installing: NASM, QEMU'
-      echo 'Press CTRL + C, if you need to leave from downloading.'
+      echo "Press CTRL+C within 3 seconds to cancel..."
+      sleep 3
       sudo apt install nasm qemu-system-x86-64
-      echo 'Downloading completed, or interrupted by user.'
+      echo ""
+      echo 'Done. Check versions:'
+      nasm -v
+      qemu-system-x86_64 -version
       ```
 - ## Windows
 - Download **NASM** from: https://nasm.us
