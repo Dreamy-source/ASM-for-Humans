@@ -50,11 +50,11 @@
       echo 'Downloading completed, or interrupted by user.'
       ```
 - ## Windows
-- Download **NASM** from https://nasm.us
+- Download **NASM** from: https://nasm.us
   
-- Download **QEMU** from https://qemu.org
+- Download **QEMU** from: https://qemu.org
 
-- In installation guide, press "Add to path" button.
+- In installation guide, press "**Add to path**" button.
 
 - After installation, open **Command Prompt** and type:
   ```cmd
