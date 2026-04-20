@@ -13,6 +13,13 @@
 - That's it. **Really**.
 - **NOTE:** All commands for running/compiling will be according to the book further
 
+## Instalation
+- **Arch Linux**
+  ```bash
+    echo 'Installing: NASM, QEMU'
+    sudo pacman -S nasm qemu-full
+    ```
+
 # Comming to Episode - 2!
 - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%202.md
 
