@@ -1,20 +1,20 @@
 ### Episode 1
 
-# Development environment
+# 🔧 Development environment
 
 - **NASM** — because we write **real assembly**, not that fake stuff.
 - **QEMU** — so you **don't kill your computer** (but if you want to live dangerously — a **USB** stick works too).
 - **Text Editor** — Notepad, NANO, NP++, Notebook, VS Code or any other text editor.
 - **Brain** — the most important tool. Must be turned **on**.
 
-## What you need to know before Episode 1:
+## 🍎 What you need to know before Episode 1:
 - How to open terminal/command prompt
 - How to install programs on your OS
 - That's it. **Really**.
 - **NOTE:** All commands for running/compiling will be according to the book further
 
-## Instalation
-- ## Linux
+## 🖥️ Instalation
+- ## 🐧 Linux
   - ### Pacman
     - **Arch Linux**
     - **Manjaro**
@@ -60,7 +60,7 @@
       nasm -v
       qemu-system-x86_64 -version
       ```
-- ## Windows
+- ## 🪟 Windows
 - Download **NASM** from: https://nasm.us
   
 - Download **QEMU** from: https://qemu.org
@@ -73,7 +73,7 @@
   qemu-system-x86_64 -version
   ```
 - If commands has been completed successfully, with pointers on version of **NASM** and **QEMU** — then go to next.
-- ## MacOS
+- ## 🍎 MacOS
   - Install **Homebrew** first (https://brew.sh)
   - Then:
     ```bash
