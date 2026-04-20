@@ -72,13 +72,13 @@
   nasm -v
   qemu-system-x86_64 -version
   ```
+  - If commands has been completed successfully, with pointers on version of **NASM** and **QEMU** — then go to next.
 - ## MacOS
   - Install **Homebrew** first (https://brew.sh)
   - Then:
     ```bash
     brew install nasm qemu
     ```
-- If commands has been completed successfully, with pointers on version of **NASM** and **QEMU** — then go to next.
 
 # Comming to Episode - 2!
 - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%202.md
