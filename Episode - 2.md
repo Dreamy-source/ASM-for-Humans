@@ -15,23 +15,23 @@
 - - **Example**: **A** - adding **a** to **x** and getting **register** [ax], **B** - adding **b** to **x** and getting **register** [bx], **C** - adding **c** to **x** and getting **register** [cx], **D** - adding **d** to **x** and getting **register** [dx].
 
 # Instructions [this is not hard, bro]
-```markdown
-- add - Add. Just add.
-- add example:
-```
 ```asm
+; add - Add. Just add.
+; add example:
+
 mov ax, 5   ; ax = 5
 add ax, 3   ; adding number 3 to ax
+
 ; Result: 8
 ```
 ---
-```markdown
-- **sub** - Sub. Just sub. Just **subtract**.
-- **sub example**:
-```
 ```asm
+; sub - Sub. Just sub. Just subtract.
+; sub example:
+
 mov ax, 5   ; ax = 5
 sub ax, 2   ; subtract 2 from ax
+
 ; Result: 8
 ```
 ---
