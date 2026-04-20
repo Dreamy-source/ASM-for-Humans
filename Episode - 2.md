@@ -1,7 +1,7 @@
 ### Episode 2 🚀
 
 # Machine, brrzz.. wtf bro?!
-- **WARNING**: I will not explain how to open a **text editor**, so we move on to studying!.
+- **⚠️**: I will not explain how to open a **text editor**, so we move on to studying!.
 
 ## Registers [Boxes]
 -  **Register** is just a **box - 📦**. You put numbers — or whatever you need — **into it**.
@@ -14,7 +14,7 @@
 - **NOTE**: This is just - **A**, **B**, **C**, **D** and others.
 - - **Example**: **A** - adding **a** to **x** and getting **register** [ax], **B** - adding **b** to **x** and getting **register** [bx], **C** - adding **c** to **x** and getting **register** [cx], **D** - adding **d** to **x** and getting **register** [dx].
 
-# 📦 Instructions [this is not hard, bro]
+# 📦 Instructions [This is not hard]
 ## 🔧 ADD
 ```asm
 ; add example:
@@ -35,6 +35,6 @@ sub ax, 2   ; subtract 2 from ax
 ; Result: 3 ✅
 ```
 ---
- 
-  # Comming to Episode - 3! 🔥
-  - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%203.md
+
+# Comming to Episode - 3! 🔥
+ - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%203.md
