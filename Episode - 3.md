@@ -1,44 +1,75 @@
-### Episode 3
+### Episode 3 🚀
 
-# Counting like a machine
+## Inc, Dec [+1] or [-1]
+-  **Inc** is just a **+1** number. Economy and **fast!** [1 Byte] 🧊.
+- ```asm
+  mov ax, 5   ; [📦] ax = 5
+  inc ax      ; [📦] ax = 6  [1 Byte]
+  
+  ; Just increase on 1 ⭐
+  ; Result: 6 ✅
+  ```
+-  **Dec** is just a **-1** number. Economy and **fast**! [1 - 2 Byte] 🧊.
+- ```asm
+  mov ax, 5   ; [📦] ax = 5
+  dec ax      ; [📦] ax = 4  [1 Byte]
+  
+  ; Just decrease on 1 ⭐
+  ; Result: 4 ✅
+  ```
 
-## inc & dec [plus one, minus one]
+-  **⚠️ Bad example [Sub]**:
+- ```asm
+  mov ax, 5   ; [📦] ax = 5
+  sub ax, 1   ; [📦] ax = 4  [3 - 4 Byte] ❗
+  
+  ; 
+  ; Result: 4, but i lost 3 - 4 bytes 😢
+  
+# 📦 Instructions [This is not hard]
+## 🔧 ADD
+```asm
+; add example:
 
-- `inc ax` — **add** 1 to box **ax** (increment)
-- `dec ax` — **subtract** 1 from box **ax** (decrement)
-- **why inc or dec, but not add or sub?**
-- - ## I can do:
-  - `add ax, 1` - okay, i added 1 into box `ax`, but this is 3 - 4 bytes and **slow**!
-  - `inc ax` - **good**, i added 1 into box `ax`, and this 1 - 2 bytes and **fast**!
- 
-  - ## And sub:
- 
-  - `sub ax, 1` - okay, i subtracted 1 from box `ax`, but this is 3 - 4 bytes and **slow**!
-  - `dec ax` - **good**, i subtracted 1 from box `ax`, and this 1 - 2 bytes and **fast**!
+mov ax, 5   ; [📦] ax = 5
+add ax, 3   ; adding number 3 to ax
 
-**Example:**
-- `mov ax, 5`
-- `inc ax` — now **ax** = 6
-- `dec ax` — now **ax** = 5 again
+; Result: 8 ✅
+```
+---
+## 🔧 SUB
+```asm
+; sub example:
 
-**Nothing difficult.**
+mov ax, 5   ; [📦] ax = 5
+sub ax, 2   ; subtract 2 from ax
 
-## Flags [if-else]
+; Result: 3 ✅
+```
+---
+## 🔧 INC
+```asm
+; inc example:
 
-- **CPU** has hidden boxes. They store **yes/no** answers.
-- After `sub ax, bx`:
-  - **ZF (Zero Flag)** = 1 if result is **zero**
-  - **ZF** = 0 if result is **not zero**
+mov ax, 5   ; [📦] ax = 5
+inc ax      ; [📦] ax = 6  [1 Byte]
+  
+; Just increase on 1 ⭐
+; Result: 6 ✅
+```
+---
 
-## Compare like if-else:
-- `cmp ax, bx` — compare **ax** with **bx**
-- `je label` — **jump if equal** (if **ZF** = 1)
-- `jne label` — **jump if not equal** (if **ZF** = 0)
+## 🔧 DEC
+```asm
+; dec example:
 
-**This is just if-else. You already know it.**
+mov ax, 5   ; [📦] ax = 5
+dec ax      ; [📦] ax = 4  [1 Byte]
+  
+; Just decrease on 1 ⭐
+; Result: 4 ✅
+```
+---
 
-## My notebook
-
-[https://github.com/Dreamy-source/ASM-for-Humans/blob/main/MEGA-NOTEBOOK.md]
-
-# Comming to Episode - 4!
+# Comming to Episode - 3! 🔥
+ - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%203.md
