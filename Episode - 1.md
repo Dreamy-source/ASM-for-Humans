@@ -31,6 +31,7 @@
     ---
       ```bash
       echo 'Installing: NASM, QEMU'
+      echo 'Press CTRL + C, if you need to leave from downloading.'
       sudo pacman -S nasm qemu-full
       ```
   - ### Apt
@@ -43,6 +44,7 @@
     - **Raspberry Pi OS**
       ```bash
       echo 'Installing: NASM, QEMU'
+      echo 'Press CTRL + C, if you need to leave from downloading.'
       sudo apt install nasm qemu-system-x86-64
       ```
 - ## Windows
