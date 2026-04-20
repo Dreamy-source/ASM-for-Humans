@@ -15,7 +15,7 @@
 
 ## Instalation
 - ## Linux
-  - **Pacman**
+  - # Pacman
     - **Arch Linux**
     - **Manjaro**
     - **EndeavourOS**
@@ -27,7 +27,7 @@
       echo 'Installing: NASM, QEMU'
       sudo pacman -S nasm qemu-full
       ```
-  - **Apt**
+  - # Apt
     - **Debian**
     - **Ubuntu**
     - **Linux Mint**
