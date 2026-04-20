@@ -4,9 +4,10 @@
 - **WARNING**: I will not explain how to open a **text editor**, so we move on to studying.
 
 ## Registers [Boxes]
--  A register is just a **box**. You put numbers — or whatever you need — **into it**.
+-  Register is just a **box**. You put numbers — or whatever you need — **into it**.
 - `mov ax, 5` — put number 5 into box `ax`
-- `add ax, 3` — take 5, add 3, get 8, put back
+- `add ax, 3` — adding stupid number 3 into box `ax` and getting number 8 in `ax`
+- Box `ax` changes the **number** in it immediately to **8** when we add a new number, **nothing difficult**
 - That's it. **No magic.**
 - Boxes have names: `ax`, `bx`, `cx`, `dx`, `si`, `di`, `bp`, `sp`
 - Each box holds numbers from **0 to 65535** (that's 16 bits)
