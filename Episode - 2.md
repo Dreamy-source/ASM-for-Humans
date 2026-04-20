@@ -36,5 +36,5 @@ sub ax, 2   ; subtract 2 from ax
 ```
 ---
  
-  # Comming to Episode - 3!
+  # Comming to Episode - 3! 🔥
   - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%203.md
