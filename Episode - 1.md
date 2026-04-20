@@ -46,5 +46,11 @@
 
 - In installation guide, press "Add to path" button.
 
+- After installation, open **Command Prompt** and type:
+  ```cmd
+  nasm -v
+  qemu-system-x86_64 -version
+  ```
+
 # Comming to Episode - 2!
 - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%202.md
