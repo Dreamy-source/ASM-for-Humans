@@ -15,21 +15,23 @@
 - - **Example**: **A** - adding **a** to **x** and getting **register** [ax], **B** - adding **b** to **x** and getting **register** [bx], **C** - adding **c** to **x** and getting **register** [cx], **D** - adding **d** to **x** and getting **register** [dx].
 
 # Instructions [this is not hard, bro]
-- **sub** - Sub. Just sub. Okay? Just **subtract**.
-- **sub example**:
-- ```asm
-  mov ax, 5
-  sub ax, 2
-  ```
-  - **Getting - 3**
-- **sub ended, this is hard?**
 - **add** - Add. Just add.
 - ```asm
-  mov ax, 5
-  add ax, 3
+  mov ax, 5   ; ax = 5
+  add ax, 3   ; adding number 3 to ax
   ```
   - **Getting - 8**
 - **add ended, now, this hard?**
+---
+- **sub** - Sub. Just sub. Okay? Just **subtract**.
+- **sub example**:
+- ```asm
+  mov ax, 5   ; ax = 5
+  sub ax, 2   ; subtract 2 from ax
+  ```
+  - **Getting - 3**
+- **sub ended, this is hard?**
+---
  
   # Comming to Episode - 3!
   - Here is **URL** to next episode: https://github.com/Dreamy-source/ASM-for-Humans/blob/main/Episode%20-%203.md
