@@ -15,14 +15,14 @@
 - - **Example**: **A** - adding **a** to **x** and getting **register** [ax], **B** - adding **b** to **x** and getting **register** [bx], **C** - adding **c** to **x** and getting **register** [cx], **D** - adding **d** to **x** and getting **register** [dx].
 
 # Instructions [this is not hard, bro]
-- **add** - Add. Just add.
+- **add** - Add. Just **add**.
 - ```asm
   mov ax, 5   ; ax = 5
   add ax, 3   ; adding number 3 to ax
   ```
   - **Getting - 8**
 ---
-- **sub** - Sub. Just sub. Okay? Just **subtract**.
+- **sub** - Sub. Just sub. Just **subtract**.
 - **sub example**:
 - ```asm
   mov ax, 5   ; ax = 5
