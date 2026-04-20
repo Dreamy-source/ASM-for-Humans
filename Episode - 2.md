@@ -34,7 +34,7 @@ add ax, 3   ; adding number 3 to ax
 mov ax, 5   ; ax = 5
 sub ax, 2   ; subtract 2 from ax
 
-; Result: 8
+; Result: 3
 ```
 ---
  
