@@ -23,7 +23,7 @@
 -  **⚠️ Bad example [Add]**:
 - ```asm
   mov ax, 5   ; [📦] ax = 5
-  add ax, 1   ; [📦] ax = 4  [3 - 4 Byte] ❗
+  add ax, 1   ; [📦] ax = 6  [3 - 4 Byte] [❗]
   
   ; 
   ; Result: 6, but i lost 3 - 4 bytes ❌
@@ -32,7 +32,7 @@
 -  **⚠️ Bad example [Sub]**:
 - ```asm
   mov ax, 5   ; [📦] ax = 5
-  sub ax, 1   ; [📦] ax = 4  [3 - 4 Byte] ❗
+  sub ax, 1   ; [📦] ax = 4  [3 - 4 Byte] [❗]
   
   ; 
   ; Result: 4, but i lost 3 - 4 bytes ❌
