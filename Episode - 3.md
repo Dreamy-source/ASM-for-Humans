@@ -37,8 +37,8 @@
 
 **This is just if-else. You already know it.**
 
-## My notebook (5 months of learning)
+## My notebook
 
-[nothing...]
+[https://github.com/Dreamy-source/ASM-for-Humans/blob/main/MEGA-NOTEBOOK.md]
 
 # Comming to Episode - 4!
