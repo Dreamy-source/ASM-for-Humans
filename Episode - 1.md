@@ -27,9 +27,9 @@
       sudo pacman -S nasm qemu-full
       ```
 - **Windows**
-- - Download **NASM** from nasm.us
+- - Download **NASM** from https://nasm.us
   
-- - Download **QEMU** from qemu.org
+- - Download **QEMU** from https://qemu.org
 
 - - Add both to PATH (or just use WSL)
 
