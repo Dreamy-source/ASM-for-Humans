@@ -28,6 +28,6 @@
 - Started coding: **Embryonic stage**.
 - First commit: **Before birth**.
 - Current status: **Writing ASM for Humans at 13**.
-- Next project: **Midnight OS** (32-bit, because 64-bit is for casuals).
+- Project: **MidnightOS** (32-bit).
 
 # Act. Time does not wait. ⏳
