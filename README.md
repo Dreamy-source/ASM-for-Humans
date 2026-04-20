@@ -2,6 +2,8 @@
 # 16-bit assembly book for pure love and real programming. 
 - Just boxes, and 512 bytes of freedom.
 - Created by a 13-year-old who believes anyone can learn assembly - if explained for humans, not bullshit.
+- And know - No one know every port and addresses
 
 # Why?
 - Because real programming is freedom. Because I made it myself.
+- You dont need to know "how works computer" from python "specialists".
