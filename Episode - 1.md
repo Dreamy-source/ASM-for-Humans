@@ -13,7 +13,7 @@
 - That's it. **Really**.
 - **NOTE:** All commands for running/compiling will be according to the book further
 
-## 🖥️ Instalation
+## 🖥️ Installation
 - ## 🐧 Linux
   - ### Pacman
     - **Arch Linux**
